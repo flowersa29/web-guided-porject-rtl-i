@@ -41,6 +41,7 @@ const AnimalForm = ({ errors, touched, values }) => {
           type="text"
           name="age"
           onChange={event => handleChange(event)}
+          
         />
         <label htmlFor="notes">Notes:</label>
         <textarea
